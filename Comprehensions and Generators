@@ -5,9 +5,7 @@ Components:
 3.Output Expression
 
 nums=[1,2,3]
-
 ->new_nums=[num+1 for num in nums]
-
 ->new_nums=[]
 for num in nums:
 new_nums.append(num+1)
@@ -53,8 +51,6 @@ new_fellowship = [member for member in fellowship if len(member)>=7]
 # Print the new list
 print(new_fellowship)
 
-
-->
 # Create a list of strings: fellowship
 fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gimli']
 
@@ -64,8 +60,6 @@ new_fellowship = [member if len(member)>=7 else "" for member in fellowship]
 # Print the new list
 print(new_fellowship)
 
-
-->
 # Create a list of strings: fellowship
 fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gimli']
 
@@ -80,8 +74,6 @@ GENERATOR EXPRESSIONS:
 nums=[num for num in range(10) if num%2==0]
 print(list(nums))
 
-
-->
 def nums(n):
    i=0
    while i<n:
@@ -90,7 +82,6 @@ def nums(n):
 call: result =num(5)
 print(type(result))
 
-->
 # Create generator object: result
 result = (num for num in range(31))
 
@@ -104,7 +95,7 @@ print(next(result))
 # Print the rest of the values
 for value in range(6,31):
     print(value)
-->
+
 # Create a list of strings
 lannister = ['cersei', 'jaime', 'tywin', 'tyrion', 'joffrey']
 
@@ -121,7 +112,6 @@ def get_lengths(input_list):
 for value in get_lengths(lannister):
     print(value)
 
-->
 # Extract the created_at column from df: tweet_time
 tweet_time = df["created_at"]
 
@@ -131,7 +121,6 @@ tweet_clock_time = [entry[11:19] for entry in tweet_time]
 # Print the extracted times
 print(tweet_clock_time)
 
-->
 # Print the first two lists in row_lists
 print(row_lists[0])
 print(row_lists[1])
@@ -143,7 +132,6 @@ list_of_dicts = [lists2dict(feature_names, sublist) for sublist in row_lists]
 print(list_of_dicts[0])
 print(list_of_dicts[1])
 
-->
 # Import the pandas package
 import pandas as pd
 
