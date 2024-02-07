@@ -7,12 +7,9 @@ Welcome to Python Basics! This is a space for Python beginners to grasp the esse
 1. **Get Started:** Make sure Python is installed on your machine. If not, grab it from [python.org](https://www.python.org/).
 
 2. **Clone the Repo:**
-
-    ```bash
     git clone https://github.com/your-username/python-basics.git
     cd python-basics
-    ```
-
+   
 ## What's Inside
 
 ### Fundamentals
