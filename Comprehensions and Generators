@@ -11,22 +11,22 @@ for num in nums:
 new_nums.append(num+1)
 print(new_nums)
 
-->result=[num for num in range(11)]
+result=[num for num in range(11)]
 print(result)
 
-->//With nested loops"
+#With nested loops"
 pairs_1=[]
 for num1 in range(0,2):
    for num2 in range(6,8):
       pairs_1.append((num1,num2))
 
-->with list comprehension
+#with list comprehension
   pairs_1=[(num1,num2) for num1 in range(0,2) for num2 in range(6,8)] 
 
--># Create list comprehension: squares
+# Create list comprehension: squares
 squares = [i**2 for i in range(0,10)]
 
--># Create a 5 x 5 matrix using a list of lists: matrix
+# Create a 5 x 5 matrix using a list of lists: matrix
 matrix = [[col for col in range(0,5)] for row in range(0,5)]
 
 # Print the matrix
@@ -41,7 +41,6 @@ ADVANCE COMPREHENSION
 DICT COMPREHENSIONS
 pos_neg={num: -num for num in range(9)}
 
-->
 # Create a list of strings: fellowship
 fellowship = ['frodo', 'samwise', 'merry', 'aragorn', 'legolas', 'boromir', 'gimli']
 
@@ -70,7 +69,7 @@ new_fellowship = {member: len(member) for member in fellowship}
 print(new_fellowship)
 
 
-GENERATOR EXPRESSIONS:
+#GENERATOR EXPRESSIONS:
 nums=[num for num in range(10) if num%2==0]
 print(list(nums))
 
