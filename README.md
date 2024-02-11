@@ -9,8 +9,6 @@ Welcome to Python Basics! This is a space for Python beginners to grasp the esse
 2. **Clone the Repo:**
     git clone https://github.com/your-username/python-basics.git
     cd python-basics
-   
-## What's Inside
 
 ### Fundamentals
 
