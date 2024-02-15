@@ -1,4 +1,4 @@
-# Python 
+#Python 
 
 Welcome to Python Basics! This is a space for Python beginners to grasp the essentials and get hands-on with some simple code.
 
