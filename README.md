@@ -11,7 +11,6 @@ Welcome to Python Basics! This is a space for Python beginners to grasp the esse
     cd python-basics
 
 ### Fundamentals
-
 - Variables and Data Types
 - Control Flow (if statements, loops)
 - Functions, Modules
@@ -21,7 +20,7 @@ Welcome to Python Basics! This is a space for Python beginners to grasp the esse
 
 ### Code Snippets
 
-Explore the `snippets` directory for simple code examples. Use them to reinforce your understanding of Python basics.
+Explore the "snippets" directory for simple code examples. Use them to reinforce your understanding of Python basics.
 
 ## Contribute
 
