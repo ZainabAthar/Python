@@ -4,7 +4,7 @@ Welcome to Python Basics! This is a space for Python beginners to grasp the esse
 
 ## How to Use
 
-1. **Get Started:** Make sure Python is installed on your machine. If not, grab it from [python.org](https://www.python.org/).
+1. **Get Started:** Make sure Python is installed. If not, grab it from [python.org](https://www.python.org/).
 
 2. **Clone the Repo:**
     git clone https://github.com/your-username/python-basics.git
